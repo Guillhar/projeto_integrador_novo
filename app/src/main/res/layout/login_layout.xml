@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banner"
+    android:orientation="vertical"
+    tools:context=".Login_activity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5C000000">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="350dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="260sp"
+            android:text="Strong Innovation"
+            android:textColor="#8A63B8"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="310sp"
+            android:text="Technology & Information"
+            android:textColor="#C66FA3"
+            android:textSize="25sp" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/botao"
+            android:hint="Ursername or Email"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/botao"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="115sp"
+            android:layout_height="20sp"
+            android:layout_marginLeft="241sp"
+            android:layout_marginTop="519sp"
+            android:text="Forgot password"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="327dp"
+            android:text="Remember me ?"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/botao1"
+            android:text="login"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginTop="660sp"
+            android:gravity="center_horizontal"
+            android:text="New to Strong Innovation?"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginTop="680sp"
+            android:gravity="center_horizontal"
+            android:text="Sing up here! "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
